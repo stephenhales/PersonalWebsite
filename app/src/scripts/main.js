@@ -19,7 +19,7 @@ const router = new VueRouter({
 		{
 		path: '/',
 		component: view('HomeComponent'),
-		meta: {title: 'CleanEarth.Life'}
+		meta: {title: 'StephenHales'}
 		},
 		{
 		path: '/profile',

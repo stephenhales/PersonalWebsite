@@ -9,14 +9,27 @@
                 <div class="component-section">
                     <intro-component></intro-component>
                 </div>
+                <div class="bottom_aligner">
+                    <a href="#projects" v-on:click='scroll("projects")'><i class="fa fa-angle-down" style="font-size:7em"></i></a>
+                </div>
             </div>
         </div>
-        <div class='fullscreen' id='water'>
-            <div class="bottom_aligner">
-                 <a href="#pollution" v-on:click='scroll("pollution")'><i class="fa fa-angle-down" style="font-size:7em"></i></a>
+        <div id='projects'>
+            <div>
+                <img src="../../imgs/code.jpg" alt="introPic" class="photo">
+            </div>
+            <div class="component">
+                <div class="component-section">
+                    <intro-component></intro-component>
+                </div>
+            </div>
+            <div class="component">
+                <div class="component-section">
+                    <intro-component></intro-component>
+                </div>
             </div>
         </div>
-	</div>
+    </div>
 </template>
 
 <script>
