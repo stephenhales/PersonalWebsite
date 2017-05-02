@@ -23,6 +23,11 @@
                     <clean-earth-component></clean-earth-component>
                 </div>
             </div>
+            <div class="component">
+                <div class="project-section">
+                    <iot-browser-component></iot-browser-component>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -32,9 +37,10 @@ import IntroComponent from './IntroComponent.vue'
 import NavComponent from './NavComponent.vue'
 import HomeComponent from './HomeComponent.vue'
 import CleanEarthComponent from './CleanEarthComponent.vue'
+import IotBrowserComponent from './IoTBrowserComponent.vue'
 
 export default {
-  components: { NavComponent, HomeComponent, IntroComponent, CleanEarthComponent },
+  components: { NavComponent, HomeComponent, IntroComponent, CleanEarthComponent, IotBrowserComponent },
   methods: {
     scroll: function (id) {
       this.$SmoothScroll(document.getElementById(id))
@@ -61,6 +67,7 @@ export default {
 
 .project-section {
     padding: 10vh 10px;
+    z-index: -1;
 }
 
 .border-photo {

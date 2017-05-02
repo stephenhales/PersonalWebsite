@@ -1,33 +1,28 @@
 <template>
 	<div>
-		<i class="fa fa-cutlery" aria-hidden="true" style="font-size: 10em;"></i>
-		<h1>Reduce Your Meat Consumption</h1>
-		<p>Methane from cattle accounts for <b>14.5</b> and <b>18</b> percent of the total greenhouse gas emissions</p>
-		<p>If you reduced the amount of meat you consume each week by <input v-model="meals" style="width: 20px;" maxlength="2"/> meals, you would reduce your impact on methane emissions in a day by <b>{{totalCow()}}</b> liters</p>
-		<p>...in a week <b>{{(totalCow() * 7).toFixed(1)}}</b> liters</p>
-		<p>...in a month <b>{{(totalCow() * 31).toFixed(1)}}</b> liters</p>
-		<p>...in a year a whopping <b>{{(totalCow() * 365).toFixed(1)}}</b> liters!!</p>
+		<div class="row">
+			<h2>Browser for the Internet of Things</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="../../imgs/projectIcons/utdesign.jpg" class="project-photo">
+			</div>
+			<div class="col-md-8">
+				<p>Develop a smartphone browser that utilizes bluetooth discovery, NFC, and object recognition to afford users proximity discovery,
+					intuitive selection, and live interaction with the various types of Internet of Things devices they will encounter.	</p>
+				<p>My teammates and I developed this project as our UTDesign senior year project.</p>
+			</div>
+		</div>
 	</div>
 </template>
 
 <script>
-export default {
-	data: function () {
-		return {
-			meals: 1,
-			cowWeight: 1000,
-			cowLife: 540,
-			cowMethane: 250,
-			poundPerMeal: .5
-		}
-	},
-	methods: {
-		totalCow: function () {
-			return (this.cowLife * this.cowMethane * (this.poundPerMeal / this.cowWeight)) * this.meals
-		}
-	}
-}
+
 </script>
 
 <style lang="sass">
+	.project-photo{
+		width: 40vh;
+		height: 40vh;
+	}
 </style>

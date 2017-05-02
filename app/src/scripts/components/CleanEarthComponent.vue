@@ -5,12 +5,13 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="../../imgs/cleanEarth.png" class="project-photo">
+				<img src="../../imgs/projectIcons/cleanEarth.png" class="project-photo">
 			</div>
 			<div class="col-md-8">
-				<p>We created this at an Earthday themed Hackathon to show that a single person can make a significant on their ecological footprint.</p>
+				<p>This was created to show that a single change can make a significant difference on your ecological footprint.</p>
 				<p>People don't realize what impact a few small changes every day can have on their environmental impact.
-					We've done the algorithms and research for you in order to give you accurate results. The end product is both shocking and humbling.</p>
+					This project uses algorithms which we developed through research in order to give accurate results about a person's environmental impact. The end product is both shocking and humbling.</p>
+				<p>My teammates and I developed this project at an Earthday themed Hackathon.</p>
 			</div>
 		</div>
 	</div>
@@ -18,13 +19,6 @@
 
 <script>
 
-export default {
-	data: function () {
-		return {
-			traditionalBulb: 2
-		}
-	}
-}
 </script>
 
 <style lang="sass">
