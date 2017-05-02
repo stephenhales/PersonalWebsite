@@ -1,7 +1,7 @@
 <template>
 
 	<div id='content' style='background-color:white'>
-        <div class='row' id='intro'>
+        <div class='row fullscreen' id='intro'>
             <div>
                 <img src="../../imgs/ricardo-gomez-angel-210602.jpg" alt="introPic" class="border-photo">
             </div>
@@ -52,6 +52,7 @@ export default {
 <style lang="sass">
 .fullscreen {
     height: 100vh;
+    min-height: 600px;
 }
 
 .component {
