@@ -1,9 +1,9 @@
 <template>
 
 	<div id='content' style='background-color:white'>
-        <div class='fullscreen' id='intro'>
+        <div class='row' id='intro'>
             <div>
-                <img src="../../imgs/ricardo-gomez-angel-210602.jpg" alt="introPic" class="photo">
+                <img src="../../imgs/ricardo-gomez-angel-210602.jpg" alt="introPic" class="border-photo">
             </div>
             <div class="component">
                 <div class="component-section">
@@ -14,18 +14,13 @@
                 </div>
             </div>
         </div>
-        <div id='projects'>
+        <div id='projects' class="row">
             <div>
-                <img src="../../imgs/code.jpg" alt="introPic" class="photo">
+                <img src="../../imgs/code.jpg" alt="introPic" class="border-photo">
             </div>
             <div class="component">
-                <div class="component-section">
-                    <intro-component></intro-component>
-                </div>
-            </div>
-            <div class="component">
-                <div class="component-section">
-                    <intro-component></intro-component>
+                <div class="project-section">
+                    <clean-earth-component></clean-earth-component>
                 </div>
             </div>
         </div>
@@ -33,20 +28,13 @@
 </template>
 
 <script>
-import LoginComponent from './LoginComponent.vue'
 import IntroComponent from './IntroComponent.vue'
 import NavComponent from './NavComponent.vue'
 import HomeComponent from './HomeComponent.vue'
-import WaterComponent from './WaterComponent.vue'
-import PollutionComponent from './PollutionComponent.vue'
-import ConclusionComponent from './ConclusionComponent.vue'
-import LightsComponent from './LightsComponent.vue'
-import PlasticBottleComponent from './PlasticBottleComponent.vue'
-import MeatComponent from './MeatComponent.vue'
-import PledgeComponent from './PledgeComponent.vue'
+import CleanEarthComponent from './CleanEarthComponent.vue'
 
 export default {
-  components: { NavComponent, HomeComponent, LoginComponent, IntroComponent, PollutionComponent, WaterComponent, ConclusionComponent, LightsComponent, PlasticBottleComponent, MeatComponent, PledgeComponent },
+  components: { NavComponent, HomeComponent, IntroComponent, CleanEarthComponent },
   methods: {
     scroll: function (id) {
       this.$SmoothScroll(document.getElementById(id))
@@ -64,13 +52,18 @@ export default {
     padding-left: 20vw;
     padding-right: 20vw;
     width: 100%;
+    min-height: 200px;
 }
+
 .component-section {
     padding: 10vh 10px;
 }
 
+.project-section {
+    padding: 10vh 10px;
+}
 
-.photo {
+.border-photo {
     margin: 0 auto;
     width: 100%;
     height: 300px;

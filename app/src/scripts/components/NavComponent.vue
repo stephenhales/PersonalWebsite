@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="navbar navbar-default">
     <div class="navMobileBG">
       <router-link to="/"
                    class="navMobileTitle">{{mobilePageTitle}}</router-link>
@@ -16,7 +16,7 @@
         <router-link active-class="active" class="navLink" to="/" exact>Home</router-link>
       </li>
       <li>
-          <router-link active-class="active" class="navLink" to="/projects" exact>Projects</router-link>
+          <router-link active-class="active" class="navLink" to="#projects" exact>Projects</router-link>
       </li>
       <li>
         <router-link active-class="active" class="navLink" to="/in-works" exact>In Progress</router-link>
@@ -27,11 +27,10 @@
       <li>
         <router-link active-class="active" class="navLink" to="/about-me" exact>About Me</router-link>
       </li>
-        <!--<li>
-        <router-link active-class="active" class="navLink"
-        to="/profile">Profile</router-link>-->
-                    
+      <li>
+        <a href="www.instagram.com/hales_stephen/" class="navLink">inst</a>
       </li>
+
     </ul>
   </div>
 </template>
@@ -107,6 +106,9 @@ background-color: #808080;
 
 .navLink.active {
 background-color: #808080;
+}
+.icon {
+  float: right;
 }
 
 .navMenu[type="checkbox"], .navMenu[type=checkbox] + label  {

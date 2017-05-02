@@ -22,9 +22,9 @@ const router = new VueRouter({
 		meta: {title: 'StephenHales'}
 		},
 		{
-		path: '/profile',
-		component: viewProfile('ProfileComponent'),
-		meta: {title: 'Find your Impact'}
+		path: '/project',
+		component: viewProject('ProjectComponent'),
+		meta: {title: 'Project'}
 	}]
 });
 
@@ -34,9 +34,9 @@ function view (name) {
   }
 }
 
-function viewProfile (name) {
+function viewProject (name) {
   return function (resolve) {
-    require(['./components/profile/' + name + '.vue'], resolve)
+    require(['./components/projects/' + name + '.vue'], resolve)
   }
 }
 

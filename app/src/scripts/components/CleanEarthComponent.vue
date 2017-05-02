@@ -1,10 +1,18 @@
 <template>
 	<div>
-		<i class="fa fa-lightbulb-o" aria-hidden="true" style="font-size: 10em;"></i>
-		<h2>Energy Efficient Lighting</h2>
-		<p>Replacing traditional lights with energy efficient lighting can save 25%-80% less energy and can last 3-25 times longer (energy.gov)</p>
-		<p>For every <input v-model="traditionalBulb" style="width: 20px;" maxlength="2"/> traditional light bulbs (60w Incandecent) replaced with energy efficient bulbs (10w LED), you save nearly <b>${{traditionalBulb * 100}} a year!!</b></p>
-
+		<div class="row">
+			<h2>CleanEarth.Life</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="../../imgs/cleanEarth.png" class="project-photo">
+			</div>
+			<div class="col-md-8">
+				<p>We created this at an Earthday themed Hackathon to show that a single person can make a significant on their ecological footprint.</p>
+				<p>People don't realize what impact a few small changes every day can have on their environmental impact.
+					We've done the algorithms and research for you in order to give you accurate results. The end product is both shocking and humbling.</p>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -20,4 +28,8 @@ export default {
 </script>
 
 <style lang="sass">
+	.project-photo{
+		width: 40vh;
+		height: 40vh;
+	}
 </style>

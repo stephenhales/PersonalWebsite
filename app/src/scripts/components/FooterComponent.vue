@@ -1,6 +1,6 @@
 <template>
 <div>
-    <p id="footer"> Made with ❤ by <a href="https://github.com/RKarkala" target="_blank" rel="noopener">Rohith Karkala</a>, <a href="https://github.com/stephenhales" target="_blank" rel="noopener">Stephen Hales</a>, and <a href="https://github.com/kushagharahi/" target="_blank" rel="noopener">Kusha Gharahi</a> at <a href="http://hackdfw.com/earthack/" target="_blank" rel="noopener">Earthack 2017</a> in Dallas! </p> 
+    <p id="footer"><a href="https://github.com/stephenhales/PersonalWebsite" target="_blank" rel="noopener">Source code</a>. Made with ❤ by Stephen Hales</p>
 </div>
 </template>
 
