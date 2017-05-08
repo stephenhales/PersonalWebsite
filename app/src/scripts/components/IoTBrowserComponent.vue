@@ -8,7 +8,7 @@
 				<img src="../../imgs/projectIcons/utdesign.jpg" class="project-photo">
 			</div>
 			<div class="col-md-8">
-				<p>Develop a smartphone browser that utilizes bluetooth discovery, NFC, and object recognition to afford users proximity discovery,
+				<p>Smartphone browser that utilizes bluetooth discovery, NFC, and object recognition to afford users proximity discovery,
 					intuitive selection, and live interaction with the various types of Internet of Things devices they will encounter.	</p>
 				<p>My teammates and I developed this project as our UTDesign senior year project.</p>
 			</div>

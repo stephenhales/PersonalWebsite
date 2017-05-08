@@ -1,20 +1,24 @@
 <template>
 <div>
-<i class="fa fa-tint" aria-hidden="true" style="font-size: 10em;"></i>
-		<h2>Reusable Water Bottles!</h2>
-		<p>Roughly only 20% of plastic bottles are recycled in the US.</p>
-        <p>For <input v-model="numRefills" style="width: 20px;" maxlength="2"/> refills of a 32oz standard water bottle, you would be saving <b>{{Math.ceil(numRefills * 2 * .8)}} plastic bottles from the landfill.</b></p>
+	<div class="row">
+		<h2>Travel Tour</h2>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="../../imgs/projectIcons/utdesign.jpg" class="project-photo">
+		</div>
+		<div class="col-md-8">
+			<p>Carry your own tour guide with you wherever you choose to travel.
+				Tours should be dynamic and customizable, not 2 hours on a bus on which you can't choose where to visit.
+				Travel Tour allows you to choose where your tour goes, and what information you listen to, and how long your tour is.</p>
+			<p>See the website demo in action <a href="https://stephenhales.github.io/TravelTour/" title="here">here</a>!</p>
+		</div>
+	</div>
 </div>
 </template>
 
 <script>
-export default {
-    data: function () {
-        return {
-            numRefills: 6
-        }
-    }
-}
+
 </script>
 
 <style lang="sass">
