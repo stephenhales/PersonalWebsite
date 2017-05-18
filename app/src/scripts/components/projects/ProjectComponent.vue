@@ -1,6 +1,9 @@
 <template>
-<div>
-</div>
+	<div id='content' style='background-color:white'>
+		<div class="component">
+			
+		</div>
+	</div>
 </template>
 
 <script>

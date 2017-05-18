@@ -5,7 +5,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<router-link active-class="active" class="navLink" to="/project/ProjectCleanEarth" exact>
+				<router-link active-class="active" class="navLink" to="/project/CleanEarth" exact>
 					<img src="../../imgs/projectIcons/cleanEarth.png" class="project-photo">
 				</router-link>
 			</div>
@@ -28,4 +28,5 @@
 		width: 40vh;
 		height: 40vh;
 	}
+
 </style>

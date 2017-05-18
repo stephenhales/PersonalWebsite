@@ -569,15 +569,21 @@ const router = new __WEBPACK_IMPORTED_MODULE_2_vue_router__["a" /* default */]({
 	mode: 'history',
 	routes: [
 		{
-		path: '/',
-		component: view('HomeComponent'),
-		meta: {title: 'StephenHales'}
+			path: '/',
+			component: view('HomeComponent'),
+			meta: {title: 'Stephen Hales'}
 		},
 		{
-		path: '/project',
-		component: viewProject('ProjectComponent'),
-		meta: {title: 'Project'}
-	}]
+			path: '/project/CleanEarth',
+			component: viewProject('CleanEarth'),
+			meta: {title: 'CleanEarth.Life'}
+		},
+		{
+			path: '/project/IoTBrowser',
+			component: viewProject('IoTBrowser'),
+			meta: {title: 'IoT Browser'}
+		}
+	]
 });
 
 function view (name) {
@@ -588,7 +594,7 @@ function view (name) {
 
 function viewProject (name) {
   return function (resolve) {
-    __webpack_require__.e/* require */(1).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(35)("./" + name + '.vue')]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe)
+    __webpack_require__.e/* require */(1).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(35)("./Project" + name + '.vue')]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe)
   }
 }
 

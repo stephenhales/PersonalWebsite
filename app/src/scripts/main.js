@@ -17,15 +17,21 @@ const router = new VueRouter({
 	mode: 'history',
 	routes: [
 		{
-		path: '/',
-		component: view('HomeComponent'),
-		meta: {title: 'StephenHales'}
+			path: '/',
+			component: view('HomeComponent'),
+			meta: {title: 'Stephen Hales'}
 		},
 		{
-		path: '/project',
-		component: viewProject('ProjectComponent'),
-		meta: {title: 'Project'}
-	}]
+			path: '/project/CleanEarth',
+			component: viewProject('CleanEarth'),
+			meta: {title: 'CleanEarth.Life'}
+		},
+		{
+			path: '/project/IoTBrowser',
+			component: viewProject('IoTBrowser'),
+			meta: {title: 'IoT Browser'}
+		}
+	]
 });
 
 function view (name) {
@@ -36,7 +42,7 @@ function view (name) {
 
 function viewProject (name) {
   return function (resolve) {
-    require(['./components/projects/' + name + '.vue'], resolve)
+    require(['./components/projects/Project' + name + '.vue'], resolve)
   }
 }
 

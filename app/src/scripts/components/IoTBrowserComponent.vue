@@ -5,7 +5,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<router-link active-class="active" class="navLink" to="/project/ProjectIoTBrowser" exact>
+				<router-link active-class="active" class="navLink" to="/project/IoTBrowser" exact>
 					<img src="../../imgs/projectIcons/utdesign.jpg" class="project-photo-iot">
 				</router-link>
 			</div>
