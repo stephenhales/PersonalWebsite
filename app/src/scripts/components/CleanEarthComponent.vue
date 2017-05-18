@@ -5,7 +5,9 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="../../imgs/projectIcons/cleanEarth.png" class="project-photo">
+				<router-link active-class="active" class="navLink" to="/project/ProjectCleanEarth" exact>
+					<img src="../../imgs/projectIcons/cleanEarth.png" class="project-photo">
+				</router-link>
 			</div>
 			<div class="col-md-8">
 				<p>This website was created to show that a single change can make a significant difference on your ecological footprint.</p>

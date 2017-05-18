@@ -16,13 +16,14 @@
         <router-link active-class="active" class="navLink" to="/" exact>Home</router-link>
       </li>
       <li>
-          <router-link active-class="active" class="navLink" to="#projects" exact>Projects</router-link>
+        <!--<div href="#projects" v-on:click='scroll("projects")'>Projects</div>-->
+        <router-link active-class="active" class="navLink" to="#projects" exact>Projects</router-link>
       </li>
       <li>
-        <router-link active-class="active" class="navLink" to="/in-works" exact>In Progress</router-link>
+        <router-link active-class="active" class="navLink" to="/inprog" exact>In Progress</router-link>
       </li>
       <li>
-        <router-link active-class="active" class="navLink" to="/contact" exact>Contact</router-link>
+        <router-link active-class="active" class="navLink" to="#contact" exact>Contact</router-link>
       </li>
       <li>
         <router-link active-class="active" class="navLink" to="/about-me" exact>About Me</router-link>

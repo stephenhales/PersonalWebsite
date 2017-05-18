@@ -1,4 +1,5 @@
 <template>
+<div>
 	<div class="row">
 		<h2>Browser for the Internet of Things</h2>
 	</div>
@@ -12,6 +13,7 @@
 			<p>My teammates and I developed this project as our UTDesign senior year project.</p>
 		</div>
 	</div>
+</div>
 </template>
 
 <script>

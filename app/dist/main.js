@@ -29,7 +29,7 @@ module.exports = __webpack_require__.p + "w3.css";
 /* styles */
 __webpack_require__(30)
 
-var Component = __webpack_require__(0)(
+var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(15),
   /* template */
@@ -71,7 +71,7 @@ module.exports = Component.exports
 /* styles */
 __webpack_require__(31)
 
-var Component = __webpack_require__(0)(
+var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(17),
   /* template */
@@ -109,7 +109,7 @@ module.exports = Component.exports
 /* styles */
 __webpack_require__(32)
 
-var Component = __webpack_require__(0)(
+var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(16),
   /* template */
@@ -149,6 +149,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_NavComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_NavComponent_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_FooterComponent_vue__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_FooterComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_FooterComponent_vue__);
+//
+//
+//
+//
 //
 //
 //
@@ -244,7 +248,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(undefined);
+exports = module.exports = __webpack_require__(0)(undefined);
 // imports
 
 
@@ -258,12 +262,12 @@ exports.push([module.i, "", ""]);
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(undefined);
+exports = module.exports = __webpack_require__(0)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "\n.nav, .navMobileBG {\n  background-color: black;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  overflow: hidden;\n  margin: 0;\n  padding: 0;\n}\n.nav {\n  list-style: none;\n}\n.navMobileBG {\n  height: 40px;\n  margin-bottom: 0px;\n  text-align: center;\n  display: none;\n}\n.navTitle, .navLink {\n  float: left;\n  display: block;\n  color: white;\n  text-decoration: none;\n}\n.navTitle {\n  padding: 5px;\n  font-size: 20px;\n}\n.navMobileTitle {\n  margin: 5px;\n  font-size: 20px;\n  text-decoration: none;\n  display: none;\n  color: white;\n}\n.navLink {\n  padding: 10px;\n}\n.navLink:hover {\n  background-color: #808080;\n}\n.navLink.active {\n  background-color: #808080;\n}\n.navMenu[type=\"checkbox\"], .navMenu[type=checkbox] + label {\n  height: 20px;\n  width: 20px;\n  margin: 10px;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.navMenu[type=checkbox] + label {\n  z-index: 0;\n}\n.navMenu[type=\"checkbox\"] {\n  z-index: 1;\n  opacity: 0;\n}\n.navMenu[type=checkbox] + label {\n  background: url(" + __webpack_require__(24) + ");\n  background-size: 100%;\n  display: none;\n}\n.navMenu[type=checkbox]:checked + label {\n  background: url(" + __webpack_require__(23) + ");\n  background-size: 100%;\n}\n.navMenu[type=checkbox]:checked + label + .nav {\n  display: block;\n}\n@media screen and (max-width: 600px) {\n.navMobileBG, .navMobileTitle, .navMenu[type=checkbox] + label {\n    display: inline-block;\n}\n.nav, .navTitle {\n    display: none;\n}\n.nav {\n    border-bottom: 1px solid rgba(0, 0, 0, 0.15);\n    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);\n    top: 40px;\n}\n.navLink {\n    float: none;\n}\n}\n", ""]);
+exports.push([module.i, "\n.nav, .navMobileBG {\n  background-color: black;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  overflow: hidden;\n  margin: 0;\n  padding: 0;\n  z-index: 5;\n}\n.nav {\n  list-style: none;\n}\n.navMobileBG {\n  height: 40px;\n  margin-bottom: 0px;\n  text-align: center;\n  display: none;\n}\n.navTitle, .navLink {\n  float: left;\n  display: block;\n  color: white;\n  text-decoration: none;\n}\n.navTitle {\n  padding: 5px;\n  font-size: 20px;\n}\n.navMobileTitle {\n  margin: 5px;\n  font-size: 20px;\n  text-decoration: none;\n  display: none;\n  color: white;\n}\n.navLink {\n  padding: 10px;\n}\n.navLink:hover {\n  background-color: #808080;\n}\n.navLink.active {\n  background-color: #808080;\n}\n.icon {\n  float: right;\n}\n.navMenu[type=\"checkbox\"], .navMenu[type=checkbox] + label {\n  height: 20px;\n  width: 20px;\n  margin: 10px;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.navMenu[type=checkbox] + label {\n  z-index: 0;\n}\n.navMenu[type=\"checkbox\"] {\n  z-index: 1;\n  opacity: 0;\n}\n.navMenu[type=checkbox] + label {\n  background: url(" + __webpack_require__(24) + ");\n  background-size: 100%;\n  display: none;\n}\n.navMenu[type=checkbox]:checked + label {\n  background: url(" + __webpack_require__(23) + ");\n  background-size: 100%;\n}\n.navMenu[type=checkbox]:checked + label + .nav {\n  display: block;\n}\n@media screen and (max-width: 600px) {\n.navMobileBG, .navMobileTitle, .navMenu[type=checkbox] + label {\n    display: inline-block;\n}\n.nav, .navTitle {\n    display: none;\n}\n.nav {\n    border-bottom: 1px solid rgba(0, 0, 0, 0.15);\n    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);\n    top: 40px;\n}\n.navLink {\n    float: none;\n}\n}\n", ""]);
 
 // exports
 
@@ -272,7 +276,7 @@ exports.push([module.i, "\n.nav, .navMobileBG {\n  background-color: black;\n  p
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(undefined);
+exports = module.exports = __webpack_require__(0)(undefined);
 // imports
 
 
@@ -301,7 +305,14 @@ module.exports = "imgs/menu.svg?8630f104d69a782a722f9860df89e71e";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('nav-component'), _vm._v(" "), _c('router-view'), _vm._v(" "), _c('footer-component')], 1)
+  return _c('div', [_c('link', {
+    attrs: {
+      "rel": "stylesheet",
+      "href": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "integrity": "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
+      "crossorigin": "anonymous"
+    }
+  }), _vm._v(" "), _c('nav-component'), _vm._v(" "), _c('router-view'), _vm._v(" "), _c('footer-component')], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -316,7 +327,9 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', {
+  return _c('div', {
+    staticClass: "navbar navbar-default"
+  }, [_c('div', {
     staticClass: "navMobileBG"
   }, [_c('router-link', {
     staticClass: "navMobileTitle",
@@ -377,21 +390,21 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "navLink",
     attrs: {
       "active-class": "active",
-      "to": "/projects",
+      "to": "#projects",
       "exact": ""
     }
   }, [_vm._v("Projects")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
     staticClass: "navLink",
     attrs: {
       "active-class": "active",
-      "to": "/in-works",
+      "to": "/inprog",
       "exact": ""
     }
   }, [_vm._v("In Progress")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
     staticClass: "navLink",
     attrs: {
       "active-class": "active",
-      "to": "/contact",
+      "to": "#contact",
       "exact": ""
     }
   }, [_vm._v("Contact")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
@@ -401,8 +414,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "to": "/about-me",
       "exact": ""
     }
-  }, [_vm._v("About Me")])], 1)])])
-},staticRenderFns: []}
+  }, [_vm._v("About Me")])], 1), _vm._v(" "), _vm._m(0)])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('li', [_c('a', {
+    staticClass: "navLink",
+    attrs: {
+      "href": "www.instagram.com/hales_stephen/"
+    }
+  }, [_vm._v("inst")])])
+}]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
@@ -422,31 +442,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "footer"
     }
-  }, [_vm._v(" Made with ❤ by "), _c('a', {
+  }, [_c('a', {
     attrs: {
-      "href": "https://github.com/RKarkala",
+      "href": "https://github.com/stephenhales/PersonalWebsite",
       "target": "_blank",
       "rel": "noopener"
     }
-  }, [_vm._v("Rohith Karkala")]), _vm._v(", "), _c('a', {
-    attrs: {
-      "href": "https://github.com/stephenhales",
-      "target": "_blank",
-      "rel": "noopener"
-    }
-  }, [_vm._v("Stephen Hales")]), _vm._v(", and "), _c('a', {
-    attrs: {
-      "href": "https://github.com/kushagharahi/",
-      "target": "_blank",
-      "rel": "noopener"
-    }
-  }, [_vm._v("Kusha Gharahi")]), _vm._v(" at "), _c('a', {
-    attrs: {
-      "href": "http://hackdfw.com/earthack/",
-      "target": "_blank",
-      "rel": "noopener"
-    }
-  }, [_vm._v("Earthack 2017")]), _vm._v(" in Dallas! ")])])
+  }, [_vm._v("Source code")]), _vm._v(". Made with ❤ by Stephen Hales")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -569,12 +571,12 @@ const router = new __WEBPACK_IMPORTED_MODULE_2_vue_router__["a" /* default */]({
 		{
 		path: '/',
 		component: view('HomeComponent'),
-		meta: {title: 'CleanEarth.Life'}
+		meta: {title: 'StephenHales'}
 		},
 		{
-		path: '/profile',
-		component: viewProfile('ProfileComponent'),
-		meta: {title: 'Find your Impact'}
+		path: '/project',
+		component: viewProject('ProjectComponent'),
+		meta: {title: 'Project'}
 	}]
 });
 
@@ -584,7 +586,7 @@ function view (name) {
   }
 }
 
-function viewProfile (name) {
+function viewProject (name) {
   return function (resolve) {
     __webpack_require__.e/* require */(1).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(35)("./" + name + '.vue')]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe)
   }

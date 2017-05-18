@@ -29,6 +29,13 @@
                 </div>
             </div>
         </div>
+        <div id="contact" class="row">
+            <div class="component">
+                <div class="component-section">
+                    <contact-component></contact-component>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -38,9 +45,10 @@ import NavComponent from './NavComponent.vue'
 import HomeComponent from './HomeComponent.vue'
 import CleanEarthComponent from './CleanEarthComponent.vue'
 import IotBrowserComponent from './IoTBrowserComponent.vue'
+import ContactComponent from './ContactComponent.vue'
 
 export default {
-  components: { NavComponent, HomeComponent, IntroComponent, CleanEarthComponent, IotBrowserComponent },
+  components: { NavComponent, HomeComponent, IntroComponent, CleanEarthComponent, IotBrowserComponent, ContactComponent },
   methods: {
     scroll: function (id) {
       this.$SmoothScroll(document.getElementById(id))
@@ -69,6 +77,7 @@ export default {
 .project-section {
     padding: 10vh 10px;
     z-index: -1;
+    font-size: 14px;
 }
 
 .border-photo {

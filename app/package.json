@@ -1,5 +1,5 @@
 {
-  "name": "cleanearth.life",
+  "name": "stephenHales",
   "version": "1.0.0",
   "description": "## Instructions * Clone repo * Make sure you have npm installed * do npm install",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kushagharahi/Earthack2017.git"
+    "url": "git+https://github.com/stephenhales/personalWebsite.git"
   },
   "author": "",
   "license": "",

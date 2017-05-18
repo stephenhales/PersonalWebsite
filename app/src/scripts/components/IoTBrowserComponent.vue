@@ -5,7 +5,9 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<img src="../../imgs/projectIcons/utdesign.jpg" class="project-photo">
+				<router-link active-class="active" class="navLink" to="/project/ProjectIoTBrowser" exact>
+					<img src="../../imgs/projectIcons/utdesign.jpg" class="project-photo-iot">
+				</router-link>
 			</div>
 			<div class="col-md-8">
 				<p>Smartphone browser that utilizes bluetooth discovery, NFC, and object recognition to afford users proximity discovery,
@@ -21,8 +23,8 @@
 </script>
 
 <style lang="sass">
-	.project-photo{
+	.project-photo-iot{
 		width: 40vh;
-		height: 40vh;
+		height: 16vh;
 	}
 </style>
