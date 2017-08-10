@@ -284,13 +284,13 @@ exports.push([module.i, "\n#footer {\r\n    margin: 0 auto;\r\n    max-width: 80
 /* 22 */
 /***/ (function(module, exports) {
 
-module.exports = "imgs/close.svg?a5df893d6dabcea1238603d288cb90bb";
+module.exports = "PersonalWebsite/imgs/close.svg?a5df893d6dabcea1238603d288cb90bb";
 
 /***/ }),
 /* 23 */
 /***/ (function(module, exports) {
 
-module.exports = "imgs/menu.svg?8630f104d69a782a722f9860df89e71e";
+module.exports = "PersonalWebsite/imgs/menu.svg?8630f104d69a782a722f9860df89e71e";
 
 /***/ }),
 /* 24 */,
