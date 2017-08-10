@@ -1,6 +1,6 @@
 <template>
 <div>
-    <p id="footer"><a href="https://github.com/stephenhales/PersonalWebsite" target="_blank" rel="noopener">Source code</a>. Made with ❤ by Stephen Hales</p>
+    <p id="footer"><a href="https://github.com/stephenhales/PersonalWebsite" target="_blank" rel="noopener">Source code</a>. Made by Stephen Hales</p>
 </div>
 </template>
 
