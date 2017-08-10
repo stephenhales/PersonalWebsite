@@ -1,0 +1,13 @@
+Build this project
+
+	d:
+	cd projects/PersonalWebsite/app
+	npm run build
+	x
+	
+Run server
+	
+	d:
+	cd projects/PersonalWebsite/app/dist
+	simplehttpserver
+	x
